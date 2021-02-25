@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/nav_graph"
+    app:startDestination="@id/earthquakeListFragment">
+
+    <fragment
+        android:id="@+id/earthquakeListFragment"
+        android:name="com.reggar.earthquakes.earthquakelist.presentation.EarthquakeListFragment"
+        android:label="Quakes" >
+        <action
+            android:id="@+id/action_toDetailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.reggar.earthquakes.detail.presentation.DetailFragment"
+        android:label="Earthquake Details" >
+        <argument
+            android:name="earthquake"
+            app:argType="com.reggar.earthquakes.earthquakelist.data.models.Earthquake" />
+    </fragment>
+</navigation>

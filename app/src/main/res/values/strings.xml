@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Quakes</string>
+
+    <string name="earthquake_list_error">There was an error loading earthquakes. Please try again later.</string>
+
+    <string name="earthquake_listitem_time">Time: %1$s</string>
+    <string name="earthquake_listitem_location">Location: %1$f, %2$f, %3$f</string>
+    <string name="earthquake_listitem_magnitude">Magnitude: %1$f</string>
+
+    <string name="earthquake_details_marker">Magnitude %1$f earthquake</string>
+
+</resources>

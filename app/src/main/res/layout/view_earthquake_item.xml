@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/gap_small"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/gap_small"
+        >
+
+        <TextView
+            android:id="@+id/textview_earthquake_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Time: 2019-05-26 07:41:44"
+            />
+
+        <TextView
+            android:id="@+id/textview_earthquake_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Location: -6.2137, 155, 156"
+            />
+
+        <TextView
+            android:id="@+id/textview_earthquake_magnitude"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Magnitude: 8.0"
+            />
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>
