@@ -1,4 +1,4 @@
-# Movies Compose
+# Earthquakes MVI
 A simple application that retrieves a list of earthquakes and allow the user to see where they occured
 in the world. Using Clean Architecture with MVI on the presentation layer.
 
